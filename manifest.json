@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Further Run",
+        "description": "一番遠くまで行ったプレイヤーが勝ち",
+        "uuid": "54ddbd7e-0b6a-4ee4-90c7-62f63633f4ae",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 20, 50 ]
+    },
+    "modules": [
+        {
+            "description": "data",
+            "type": "data",
+            "uuid": "f9ee7d48-267f-4b50-84c9-ebeac7992468",
+            "version": [1, 0, 0]
+        },
+        {
+            "description": "Script API",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "8f7e10d0-7839-4712-b941-c855a2b3493b",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.7.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.1.0"
+        }
+    ]
+}
